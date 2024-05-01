@@ -40,9 +40,13 @@
     margin-bottom: 94px;
 }
 
-.container-small {
+.container-small  {
     max-width: 1150px;
     margin: 0 auto;
+}
+.container-small h2 {
+    margin-bottom: 20px;
+    color: #f8fafc;
 }
 
 h2 span {
