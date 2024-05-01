@@ -43,7 +43,12 @@
 .container-small  {
     max-width: 1150px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
 }
+
+
 .container-small h2 {
     margin-bottom: 20px;
     color: #f8fafc;
@@ -92,3 +97,50 @@ h2 span {
 .card div p:first-child {
     margin-bottom: 14px;
 }
+
+/*last section*/
+
+.card div p:first-child {
+    margin-bottom: 14px;
+}
+
+.Latest-Posts {
+    margin-bottom: 94px;
+}
+
+.Latest-Posts > div .card {
+    display: flex;
+    gap: 41px;
+}
+
+h4 {
+    color: #f8fafc;
+} 
+
+.cardi {
+    background: rgba(38, 41, 59, 0.4);
+    border-radius: 20px;
+    padding: 34px 8px;
+    gap: 44px;
+}
+
+.cardi img {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.cardi h4 , 
+p {
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #f8fafc;
+}
+
+.h2psition {
+    max-width: 1240px;
+    margin: 0 auto;
+    color: #f8fafc;
+    gap: 10px;
+  }
