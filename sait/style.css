@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ body {
+    background-color: #0F172A;
+ }
+
+ header {
+    padding: 34px 0;
+    margin-bottom: 94px;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.navigation li a {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #f8fafc;
+    text-decoration: none;
+}
