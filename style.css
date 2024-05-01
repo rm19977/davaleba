@@ -33,3 +33,58 @@
     color: #f8fafc;
     text-decoration: none;
 }
+
+/*section cards style*/
+
+.recent-projects {
+    margin-bottom: 94px;
+}
+
+.container-small {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+h2 span {
+    color: #16B8F3;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+}
+
+.card {
+    background: rgba(38, 41, 59, 0.4);
+    border-radius: 20px;
+    padding: 34px 8px;
+    display: flex;
+    align-items: center;
+    gap: 44px;
+}
+
+.card > div {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.card h3 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35.16px;
+    text-align: left;
+    color: #f8fafc;
+}
+
+.card p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #f8fafc;
+}
+
+.card div p:first-child {
+    margin-bottom: 14px;
+}
